@@ -1,0 +1,46 @@
+name: medical_patient_app
+description: A medical patient management system with auto-update.
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+
+  # State Management & Backend
+  supabase_flutter: ^1.10.25
+
+  # UI & Utilities
+  shared_preferences: ^2.2.2
+  google_fonts: ^6.1.0
+
+  # PDF & Printing
+  pdf: ^3.10.4
+  printing: ^5.11.1
+
+  # Email
+  mailer: ^6.0.0
+  http_parser: ^4.0.2
+  # Auto-Update Feature
+  package_info_plus: ^4.2.0
+  http: ^1.1.0
+  path_provider: ^2.1.1
+  open_file: ^3.3.2
+  url_launcher: ^6.1.14
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  # assets:
+  #   - images/
